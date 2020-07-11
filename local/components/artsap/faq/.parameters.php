@@ -34,8 +34,29 @@ $arComponentParameters = array(
             "REFRESH" => "Y",
         ),
         'JQERY' => array(
-            'NAME' => 'Подключить jQuery',
+            'NAME' => GetMessage("JQERY"),
             'TYPE' => 'CHECKBOX',
+            'PARENT' => 'BASE',
+        ),
+        'COUNT' => array(
+            'NAME' => GetMessage("COUNT"),
+            'TYPE' => 'STRING',
+            'PARENT' => 'BASE',
+            "DEFAULT" => '5',
+        ),
+        'CAPTCHA' => array(
+            'NAME' => GetMessage("CAPTCHA"),
+            'TYPE' => 'CHECKBOX',
+            'PARENT' => 'BASE',
+        ),
+        'CAPTCHA1' => array(
+            'NAME' => GetMessage("CAPTCHA1"),
+            'TYPE' => 'STRING',
+            'PARENT' => 'BASE',
+        ),
+        'CAPTCHA2' => array(
+            'NAME' => GetMessage("CAPTCHA2"),
+            'TYPE' => 'STRING',
             'PARENT' => 'BASE',
         ),
     ),
